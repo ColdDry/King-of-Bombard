@@ -1,0 +1,28 @@
+{
+  "name": "king_of_bombard",
+  "description": "a simple game for learning!",
+  "main": "app.js",
+  "authors": [
+    "hjh"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "node.js",
+    "web",
+    "number",
+    "line"
+  ],
+  "homepage": "https://github.com/ColdDry/King-of-Bombard",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}
