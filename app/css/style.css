@@ -1,6 +1,68 @@
 html, body {
     height: 100vh;
     margin: 0;
-    background-color: #e3dfdf;
-    font-family: Microsoft JhengHei;
+    background-color: #f4f0f0;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.text-red{
+    color: #ff275a;
+}
+
+.btn-xl {
+    height: 80px;
+    font-size: 50px;
+}
+
+.input-frame{
+    margin-left: 30px;
+    font-size: 32px;
+    border: solid #ff275a 2px ;
+    background-color: #0f0f0f;
+}
+
+.img-frame {
+    width: 180px;
+}
+
+.img-shoot {
+    width: 400px;
+    height: 300px;
+}
+
+.img-tank {
+    margin-top: 50px;
+    width: 200px;
+}
+
+.img-line {
+    margin-top: 50px;
+    height: 130px;
+}
+
+.img-fire{
+    margin-left: 140px;
+    margin-top: 30px;
+    width: 180px;
+}
+
+.game-frame {
+    height: 730px;
+    width: 1000px;
+    background-color: #0f0f0f;
+}
+
+.game-cell-top {
+    border-radius: 60px;
+    height: 39%;
+    margin: 5px;
+    background-color: #9acfea
+}
+.game-cell-bottom{
+    height: 60%;
+    border-top: dotted 5px #24ff9d;
 }
