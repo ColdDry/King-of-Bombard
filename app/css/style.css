@@ -9,8 +9,21 @@ html, body {
     background-color: white;
 }
 
-.text-red{
+.text-red {
     color: #ff275a;
+}
+
+.text-blue {
+    color: #2474ba;
+}
+
+.text-deep-green {
+    color: darkgreen;
+    line-height: 1.5;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }
 
 .btn-xl {
@@ -18,10 +31,11 @@ html, body {
     font-size: 50px;
 }
 
-.input-frame{
+.input-frame {
+    color: snow;
     margin-left: 30px;
     font-size: 32px;
-    border: solid #ff275a 2px ;
+    border: solid #ff275a 2px;
     background-color: #0f0f0f;
 }
 
@@ -44,10 +58,15 @@ html, body {
     height: 130px;
 }
 
-.img-fire{
+.img-fire {
     margin-left: 140px;
     margin-top: 30px;
     width: 180px;
+}
+
+.img-head {
+    width: 180px;
+    margin-top: 30px;
 }
 
 .game-frame {
@@ -62,7 +81,34 @@ html, body {
     margin: 5px;
     background-color: #9acfea
 }
-.game-cell-bottom{
+
+.game-cell-bottom {
     height: 60%;
     border-top: dotted 5px #24ff9d;
+}
+
+.point-frame {
+    border-radius: 60px;
+    height: 80%;
+    margin-top: 30px;
+    background-color: #bcea9b
+}
+
+.fail-frame {
+    border-radius: 10px;
+    height: 85%;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.btn-circle {
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 120px;
+    border-radius: 150px;
+    background-color: #ff275a;
+    padding-top: 70px;
+    font-size: 32px;
+    color: white;
 }

@@ -2,11 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1240db47-7b1c-48d8-9d9e-478a96e3ccdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/step1-1.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/001_100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/001_101.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/001_102.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/001_103.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/001_104.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/001_105.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/001_106.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/001_107.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/001_108.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/001_109.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/002_100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/002_101.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/002_102.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/002_103.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/002_104.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/002_105.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/002_106.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/002_107.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/002_108.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/002_109.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/003_100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/003_101.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/003_102.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/003_103.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/003_104.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/003_105.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/003_106.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/003_107.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/003_108.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/003_109.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/004_100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/004_101.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/004_102.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/004_103.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/004_104.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/004_105.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/004_106.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/004_107.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/004_108.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/004_109.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/005_100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/005_101.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/005_102.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/005_103.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/005_104.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/005_105.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/005_106.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/005_107.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/005_108.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/005_109.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/shoot-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/shoot-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/shoot-3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/shoot-4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/tank-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/tank-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/tank-3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/tank-4.gif" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="$PROJECT_DIR$/app/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/step0.html" afterPath="$PROJECT_DIR$/app/step0.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/step1-1.html" afterPath="$PROJECT_DIR$/app/step1-1.html" />
     </list>
     <ignored path="King-of-Bombard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,18 +89,8 @@
       <file leaf-file-name="step1-1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/step1-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-167">
-              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            <state relative-caret-position="504">
+              <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -52,11 +99,24 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="540">
+              <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
+                <element signature="e#2588#6763#0" expanded="false" />
+                <element signature="e#2606#3904#0" expanded="false" />
+                <element signature="e#3923#5289#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,13 +143,13 @@
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/d.html" />
         <option value="$PROJECT_DIR$/app/step0.htm" />
-        <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/step0.html" />
-        <option value="$PROJECT_DIR$/app/step1-1.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/css/style.css" />
+        <option value="$PROJECT_DIR$/app/step1-1.html" />
+        <option value="$PROJECT_DIR$/app/js/app.js" />
       </list>
     </option>
   </component>
@@ -131,8 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,6 +225,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,18 +315,19 @@
       <option name="presentableId" value="Default" />
       <updated>1475937962515</updated>
       <workItem from="1475937964191" duration="4571000" />
-      <workItem from="1475943239973" duration="5552000" />
+      <workItem from="1475943239973" duration="5628000" />
+      <workItem from="1475986261123" duration="13384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10123000" />
+    <option name="totallyTimeSpent" value="23583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18957011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18957011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -318,6 +379,35 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/step1-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1692">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#2588#6763#0" expanded="false" />
+            <element signature="e#2606#3904#0" expanded="false" />
+            <element signature="e#3923#5289#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/step0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -340,6 +430,9 @@
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#2588#6763#0" expanded="false" />
+            <element signature="e#2606#3904#0" expanded="false" />
+            <element signature="e#3923#5289#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -374,19 +467,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/d.html" />
     <entry file="file://$PROJECT_DIR$/app/step0.htm" />
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="228" column="16" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/001_114.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/step0.html">
@@ -399,26 +498,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/step1-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        <state relative-caret-position="504">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="157">
+          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="540">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#2588#6763#0" expanded="false" />
+            <element signature="e#2606#3904#0" expanded="false" />
+            <element signature="e#3923#5289#0" expanded="false" />
           </folding>
         </state>
       </provider>
