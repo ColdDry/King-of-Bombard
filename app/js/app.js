@@ -32,12 +32,12 @@ app.controller('step11Ctrl', ['$scope', '$timeout', '$interval', 'imgSrc', funct
     $scope.srcTank = 'img/tank.png';
     $scope.srcShoot = 'img/shoot.png';
     $scope.isAnsFail = false;
-
+    var isPlayed = false;
     var isInt = /^[0-9]*[1-9][0-9]*$/; //判斷正整數的function
 
     $scope.onFire = function () {
         console.log('input:' + $scope.inputAns);
-        if (isInt.test($scope.inputAns)) {
+        if (isInt.test($scope.inputAns) && !isPlayed) {
             $scope.srcLine = 'img/001.png';
             var count = 0;
             $interval(function () {
@@ -51,7 +51,7 @@ app.controller('step11Ctrl', ['$scope', '$timeout', '$interval', 'imgSrc', funct
                     checkAns();
                 }, 500);
             }, 1500);
-
+            isPlayed = true;
         }
     };
     $scope.readPoint = function () {
@@ -59,6 +59,7 @@ app.controller('step11Ctrl', ['$scope', '$timeout', '$interval', 'imgSrc', funct
         $scope.showShoot = false;
         $scope.showPoint = true;
         $scope.showCorrect = false;
+        isPlayed = false;
     };
     $scope.playAgain = function () {
         $scope.showShoot = true;
@@ -69,6 +70,7 @@ app.controller('step11Ctrl', ['$scope', '$timeout', '$interval', 'imgSrc', funct
         $scope.srcLine = 'img/001.png';
         $scope.srcTank = 'img/tank.png';
         $scope.srcShoot = 'img/shoot.png';
+        isPlayed = false;
     };
     var checkAns = function () {
         if ($scope.inputAns == 9) {
