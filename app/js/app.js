@@ -49,7 +49,7 @@ app.controller('step11Ctrl', ['$scope', '$timeout', '$interval', 'imgSrc', funct
                 $scope.srcLine = imgSrc.getLineImgs(1, $scope.inputAns);
                 $timeout(function () {
                     checkAns();
-                }, 500);
+                }, 800);
             }, 1500);
             isPlayed = true;
         }
