@@ -9,9 +9,9 @@ app.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/', {
         templateUrl: 'step0.html',
         controller: 'step0Ctrl'
-    }).when('/step1-1', {
-        templateUrl: 'step1-1.html',
-        controller: 'step11Ctrl'
+    }).when('/main', {
+        templateUrl: 'main.html',
+        controller: 'mainCtrl'
     });
 }]);
 
@@ -22,6 +22,11 @@ app.controller('majorCtrl', ['$scope', function ($scope) {
 app.controller('step0Ctrl', ['$scope', function ($scope) {
 
 }]);
+
+app.controller('mainCtrl', ['$scope', '$timeout', '$interval', 'imgSrc', function ($scope, $timeout, $interval, imgSrc){
+
+}]);
+
 
 app.controller('step11Ctrl', ['$scope', '$timeout', '$interval', 'imgSrc', function ($scope, $timeout, $interval, imgSrc) {
     $scope.showFail = false;
