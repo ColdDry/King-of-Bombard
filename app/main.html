@@ -1,5 +1,5 @@
 <div class="">
-    <h3 class="text-center text-primary">第一關</h3>
+    <h3 class="text-center text-primary">第 {{title}} 關</h3>
     <div class="game-ground">
         <div class="frame-top">
             <div class="mission-area">
@@ -13,7 +13,7 @@
                 <p>模擬區</p>
                 <img ng-src="{{srcShoot}}" class="img-responsive" alt="shoot">
             </div>
-            <div class="fail-area" ng-show="showFail">
+            <div class="fail-area" ng-show="false">
                 <p class="text-center">很可惜，射偏了！</p>
                 <div ng-click="playAgain()" class="cursor-pointer">
                     <img src="img/female-soldier-head.png" class="img-responsive" alt="female-soldier-head">
@@ -27,12 +27,17 @@
             <div class="point-area container" ng-show="showPoint">
                 <p class="text-center">說明</p>
                 <div class="panel-body">
-                    <h3>數線由0出發，越往右表示數值越大，上圖中每一格的距離都是1，射擊的靶在第九格，所以距離應填9。</h3>
+                    <h3>{{point}}</h3>
                 </div>
             </div>
             <div class="correct-area" ng-show="showCorrect">
                 <p class="text-center">恭喜，擊中目標！</p>
-                <button class="btn btn-xl btn-success">前往下一題</button>
+                <button class="btn btn-xl btn-success" ng-click="nextQues()">前往下一題</button>
+            </div>
+
+            <div class="complete-area" ng-show="showComplete">
+                <p class="text-center">恭喜破關成功！</p>
+                <p class="text-center">現在您已成為砲擊高手！</p>
             </div>
 
             <div class="answer-area">

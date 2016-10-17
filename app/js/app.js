@@ -24,20 +24,56 @@ app.controller('step0Ctrl', ['$scope', function ($scope) {
 }]);
 
 app.controller('mainCtrl', ['$scope', '$timeout', '$interval', 'imgSrc', function ($scope, $timeout, $interval, imgSrc) {
+    var quesRes = [
+        {
+            ques: 1,
+            ans: 9,
+            lineImg: 'img/001.png',
+            point: '數線由0出發，越往右表示數值越大，上圖中每一格的距離都是1，射擊的靶在第九格，所以距離應填9。'
+        },
+        {
+            ques: 2,
+            ans: 7,
+            lineImg: 'img/002.png',
+            point: '數線0~5之間有5格，因此每一格代表1。數線上的數越往右數值越大，射擊的靶在5往右兩格，所以是7。'
+        },
+        {
+            ques: 3,
+            ans: 13,
+            lineImg: 'img/003.png',
+            point: '數線上0到15之間有15格，因此每一格距離都是1。數線上的數越往左數值越小，射擊的靶在15往左兩格，所以是13。'
+        },
+        {
+            ques: 4,
+            ans: 6,
+            lineImg: 'img/004.png',
+            point: '數線0到10之間有五格，因此每一格代表2。射擊標靶的位置是從0往右數三格，所以是6。'
+        },
+        {
+            ques: 5,
+            ans: 7,
+            lineImg: 'img/005.png',
+            point: '射擊標靶位在5到10之間，因此比較靠近5，可能是6或7。如果是6應該離5更近一些，因此設定7。'
+        }
+    ];
+    var quesNow = 0;
     $scope.showFail = false;
     $scope.showShoot = true;
     $scope.showPoint = false;
     $scope.showCorrect = false;
+    $scope.showComplete = false;
     $scope.srcLine = 'img/001.png';
     $scope.srcTank = 'img/tank.png';
     $scope.srcShoot = 'img/shoot.png';
+    $scope.point = quesRes[quesNow].point;
+    $scope.title = 1;
     var isPlayed = false;
     var isInt = /^[0-9]*[1-9][0-9]*$/; //判斷正整數的function
 
     $scope.onFire = function () {
         console.log('input:' + $scope.inputAns);
         if (isInt.test($scope.inputAns) && !isPlayed) {
-            $scope.srcLine = 'img/001.png';
+            $scope.srcLine = quesRes[quesNow].lineImg;
             var count = 0;
             $interval(function () {
                 $scope.srcTank = imgSrc.getTankImgs($scope.inputAns)[count];
@@ -45,12 +81,30 @@ app.controller('mainCtrl', ['$scope', '$timeout', '$interval', 'imgSrc', functio
                 count++;
             }, 200, 8);
             $timeout(function () {
-                $scope.srcLine = imgSrc.getLineImgs(1, $scope.inputAns);
+                $scope.srcLine = imgSrc.getLineImgs(quesRes[quesNow].ques, $scope.inputAns);
                 $timeout(function () {
                     checkAns();
                 }, 800);
             }, 1500);
             isPlayed = true;
+        }
+    };
+
+    $scope.nextQues = function () {
+        if (quesNow < 5) {
+            quesNow++;
+            $scope.title++;
+            $scope.point = quesRes[quesNow].point;
+            $scope.srcLine = quesRes[quesNow].lineImg;
+            $scope.showShoot = true;
+            $scope.showPoint = false;
+            $scope.showFail = false;
+            $scope.showCorrect = false;
+            $scope.showComplete = false;
+            $scope.srcTank = 'img/tank.png';
+            $scope.srcShoot = 'img/shoot.png';
+            $scope.inputAns = '';
+            isPlayed = false;
         }
     };
 
@@ -60,6 +114,7 @@ app.controller('mainCtrl', ['$scope', '$timeout', '$interval', 'imgSrc', functio
         $scope.showShoot = false;
         $scope.showPoint = true;
         $scope.showCorrect = false;
+        $scope.showComplete = false;
         isPlayed = false;
     };
     $scope.playAgain = function () {
@@ -67,6 +122,7 @@ app.controller('mainCtrl', ['$scope', '$timeout', '$interval', 'imgSrc', functio
         $scope.showPoint = false;
         $scope.showFail = false;
         $scope.showCorrect = false;
+        $scope.showComplete = false;
         $scope.inputAns = '';
         $scope.srcLine = 'img/001.png';
         $scope.srcTank = 'img/tank.png';
@@ -76,15 +132,25 @@ app.controller('mainCtrl', ['$scope', '$timeout', '$interval', 'imgSrc', functio
 
 
     var checkAns = function () {
-        if ($scope.inputAns == 9) {
-            $scope.showFail = false;
-            $scope.showShoot = false;
-            $scope.showPoint = false;
-            $scope.showCorrect = true;
+        if ($scope.inputAns == quesRes[quesNow].ans) {
+            if(quesNow == 4){
+                $scope.showFail = false;
+                $scope.showShoot = false;
+                $scope.showPoint = false;
+                $scope.showComplete = true;
+                $scope.showCorrect = false;
+            }else {
+                $scope.showFail = false;
+                $scope.showShoot = false;
+                $scope.showPoint = false;
+                $scope.showComplete = false;
+                $scope.showCorrect = true;
+            }
         } else {
             $scope.showFail = true;
             $scope.showShoot = false;
             $scope.showPoint = false;
+            $scope.showComplete = false;
             $scope.showCorrect = false;
         }
     }
