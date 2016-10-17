@@ -23,12 +23,7 @@ app.controller('step0Ctrl', ['$scope', function ($scope) {
 
 }]);
 
-app.controller('mainCtrl', ['$scope', '$timeout', '$interval', 'imgSrc', function ($scope, $timeout, $interval, imgSrc){
-
-}]);
-
-
-app.controller('step11Ctrl', ['$scope', '$timeout', '$interval', 'imgSrc', function ($scope, $timeout, $interval, imgSrc) {
+app.controller('mainCtrl', ['$scope', '$timeout', '$interval', 'imgSrc', function ($scope, $timeout, $interval, imgSrc) {
     $scope.showFail = false;
     $scope.showShoot = true;
     $scope.showPoint = false;
@@ -36,7 +31,6 @@ app.controller('step11Ctrl', ['$scope', '$timeout', '$interval', 'imgSrc', funct
     $scope.srcLine = 'img/001.png';
     $scope.srcTank = 'img/tank.png';
     $scope.srcShoot = 'img/shoot.png';
-    $scope.isAnsFail = false;
     var isPlayed = false;
     var isInt = /^[0-9]*[1-9][0-9]*$/; //判斷正整數的function
 
@@ -59,6 +53,8 @@ app.controller('step11Ctrl', ['$scope', '$timeout', '$interval', 'imgSrc', funct
             isPlayed = true;
         }
     };
+
+
     $scope.readPoint = function () {
         $scope.showFail = false;
         $scope.showShoot = false;
@@ -77,6 +73,8 @@ app.controller('step11Ctrl', ['$scope', '$timeout', '$interval', 'imgSrc', funct
         $scope.srcShoot = 'img/shoot.png';
         isPlayed = false;
     };
+
+
     var checkAns = function () {
         if ($scope.inputAns == 9) {
             $scope.showFail = false;
@@ -90,6 +88,7 @@ app.controller('step11Ctrl', ['$scope', '$timeout', '$interval', 'imgSrc', funct
             $scope.showCorrect = false;
         }
     }
+
 }]);
 
 app.factory('imgSrc', function () {

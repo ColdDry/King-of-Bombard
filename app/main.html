@@ -1,6 +1,51 @@
-<div class="container bg-danger">
-    <h2 class="text-center">第一關</h2>
-    <div class="col-md-12 game-frame">
+<div class="">
+    <h3 class="text-center text-primary">第一關</h3>
+    <div class="game-ground">
+        <div class="frame-top">
+            <div class="mission-area">
+                <p class="text-center">任務區</p>
+                <img ng-src="{{srcTank}}" class="tank-frame" alt="tank">
+                <img ng-src="{{srcLine}}" class="line-frame" alt="line">
+            </div>
+        </div>
+        <div class="frame-bottom">
+            <div class="shoot-area" ng-show="showShoot">
+                <p>模擬區</p>
+                <img ng-src="{{srcShoot}}" class="img-responsive" alt="shoot">
+            </div>
+            <div class="fail-area" ng-show="showFail">
+                <p class="text-center">很可惜，射偏了！</p>
+                <div ng-click="playAgain()" class="cursor-pointer">
+                    <img src="img/female-soldier-head.png" class="img-responsive" alt="female-soldier-head">
+                    <h2 class="text-center text-danger"><strong>按我再試一次</strong></h2>
+                </div>
+                <div ng-click="readPoint()" class="cursor-pointer">
+                    <img src="img/male-soldier-head.png" class="img-responsive" alt="male-soldier-head">
+                    <h2 class="text-center text-primary"><strong>按我看說明</strong></h2>
+                </div>
+            </div>
+            <div class="point-area container" ng-show="showPoint">
+                <p class="text-center">說明</p>
+                <div class="panel-body">
+                    <h3>數線由0出發，越往右表示數值越大，上圖中每一格的距離都是1，射擊的靶在第九格，所以距離應填9。</h3>
+                </div>
+            </div>
+            <div class="correct-area" ng-show="showCorrect">
+                <p class="text-center">恭喜，擊中目標！</p>
+                <button class="btn btn-xl btn-success">前往下一題</button>
+            </div>
 
+            <div class="answer-area">
+                <p class="text-center">發射區</p>
+                <form class="text-center">
+                    <h2>距離設定</h2>
+                    <input class="input-frame text-center" type="number" ng-model="inputAns">
+                </form>
+                <div class="button-ground">
+                    <div class="hide-area"></div>
+                    <img src="img/btn-fire.png" ng-click="onFire()" class="img-responsive cursor-pointer" alt="fire">
+                </div>
+            </div>
+        </div>
     </div>
 </div>

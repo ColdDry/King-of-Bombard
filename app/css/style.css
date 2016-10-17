@@ -9,23 +9,6 @@ html, body {
     background-color: white;
 }
 
-.text-red {
-    color: #ff275a;
-}
-
-.text-blue {
-    color: #2474ba;
-}
-
-.text-green{
-    color: #7cb16c;
-}
-
-.text-deep-green {
-    color: darkgreen;
-    line-height: 1.5;
-}
-
 .cursor-pointer {
     cursor: pointer;
 }
@@ -36,8 +19,9 @@ html, body {
 }
 
 .input-frame {
+    width: 200px;
     color: snow;
-    margin-left: 15px;
+    margin: auto;
     font-size: 32px;
     border: solid #7cb16c 3px;
     background-color: #0f0f0f;
@@ -47,75 +31,181 @@ html, body {
     width: 180px;
 }
 
-.img-shoot {
-    width: 400px;
-    height: 300px;
-}
-
-.img-tank {
-    margin-top: 50px;
-    width: 200px;
-}
-
-.img-line {
-    margin-top: 50px;
-    height: 130px;
-}
-
-.img-fire {
-    margin-left: 140px;
-    margin-top: 30px;
-    width: 180px;
-}
-
-.img-head {
-    width: 180px;
-    margin-top: 30px;
-}
-
-.game-frame {
-    height: 700px;
+.game-ground {
+    width: 960px;
+    height: 690px;
+    margin: 0 auto;
     background-color: #0f0f0f;
 }
 
-.game-cell-top {
-    border-radius: 60px;
-    height: 39%;
-    margin: 5px;
-    background-color: #9acfea
+.frame-top {
+    height: 270px;
+    width: 960px;
+    border-bottom: 3px solid #337ab7;
+    padding: 15px;
 }
 
-.game-cell-bottom {
-    height: 60%;
-    border-top: solid 5px #2474ba;
+.frame-bottom {
+    height: 420px;
+    width: 960px;
 }
 
-.point-frame {
-    border-radius: 60px;
-    height: 80%;
-    margin-top: 30px;
-    background-color: #bcea9b;
-}
-
-.fail-frame {
+.mission-area {
+    height: 240px;
+    width: 920px;
     border-radius: 10px;
-    height: 85%;
-    margin-top: 10px;
+    margin: 0 auto;
+    background-color: #bffaff;
+}
+
+.mission-area p {
+    font-size: 18px;
+    color: #000672;
+    font-weight: bolder;
+}
+
+.tank-frame {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.line-frame {
+    height: 150px;
+    width: 570px;
+}
+
+.shoot-area {
+    height: 400px;
+    width: 510px;
+    padding: 10px;
+    float: left;
+}
+
+.shoot-area p {
+    width: 510px;
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 1;
+    font-size: 18px;
+    color: #000672;
+    font-weight: bolder;
+}
+
+.shoot-area img {
+    z-index: 0;
+    margin-bottom: 10px;
+}
+
+.fail-area {
+    height: 100%;
+    width: 510px;
+    float: left;
     background-color: white;
 }
 
-.btn-circle {
-    height: 200px;
-    width: 200px;
-    margin-top: 60px;
-    margin-left: 120px;
-    border-radius: 150px;
-    background-color: #ff275a;
-    padding-top: 70px;
+.fail-area p {
+    margin-top: 10px;
     font-size: 32px;
-    color: white;
+    color: #ff275a;
+    font-weight: bolder;
 }
 
-.border-left{
-    border-left: solid 5px #2474ba;
+.fail-area div {
+    width: 240px;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    float: left;
 }
+
+.point-area {
+    height: 95%;
+    width: 490px;
+    float: left;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #dfffb7;
+}
+
+.point-area p {
+    margin-top: 10px;
+    font-size: 32px;
+    color: #1d6a18;
+    font-weight: bolder;
+}
+
+.point-area h3 {
+    line-height: 1.5;
+    color: #1d6a18;
+    font-size: 32px;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.correct-area {
+    height: 95%;
+    width: 490px;
+    float: left;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #08cbff;
+}
+
+.correct-area p {
+    margin-top: 100px;
+    font-size: 32px;
+    color: snow;
+    font-weight: bolder;
+}
+.correct-area button{
+margin-left: 100px;
+}
+
+.answer-area {
+    height: 100%;
+    width: 450px;
+    border-left: solid #2474ba 3px;
+    float: right;
+}
+
+.answer-area p {
+    padding: 10px;
+    font-size: 18px;
+    color: #bffaff;
+    font-weight: bolder;
+    height: 10%;
+
+}
+
+.answer-area form {
+    font-size: 32px;
+    height: 45%;
+    color: #7cb16c;
+    margin: auto;
+}
+
+.button-ground {
+    width: 100%;
+    height: 40%;
+    background-color: #83889d;
+}
+
+.answer-area img {
+    height: 150px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+.hide-area {
+    width: 447px;
+    height: 50px;
+    position: absolute;
+    z-index: 0;
+    background-color: #0f0f0f;
+}
+
+
+
