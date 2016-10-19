@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1240db47-7b1c-48d8-9d9e-478a96e3ccdb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/step0.html" afterPath="$PROJECT_DIR$/app/step0.html" />
+=======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.html" afterPath="$PROJECT_DIR$/app/main.html" />
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
     </list>
     <ignored path="King-of-Bombard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,13 +34,25 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/main.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="72">
+              <caret line="32" column="58" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="58" />
+=======
             <state relative-caret-position="100">
               <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6264">
+              <caret line="174" column="14" selection-start-line="174" selection-start-column="14" selection-end-line="174" selection-end-column="14" />
+=======
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,6 +70,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3648">
               <caret line="227" column="0" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
               <folding />
             </state>
           </provider>
@@ -83,11 +101,14 @@
         <option value="$PROJECT_DIR$/app/d.html" />
         <option value="$PROJECT_DIR$/app/step0.htm" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/step0.html" />
         <option value="$PROJECT_DIR$/app/step1-1.html" />
         <option value="$PROJECT_DIR$/app/css/style.css" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/app/step0.html" />
+=======
         <option value="$PROJECT_DIR$/app/main.html" />
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
       </list>
     </option>
   </component>
@@ -131,7 +152,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
       <pane id="Scratches" />
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -140,9 +164,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="King-of-Bombard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="King-of-Bombard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="King-of-Bombard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="King-of-Bombard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+<<<<<<< HEAD
+      <pane id="Scratches" />
+=======
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,13 +289,23 @@
       <workItem from="1476257858766" duration="831000" />
       <workItem from="1476527307698" duration="1867000" />
       <workItem from="1476557324105" duration="12777000" />
+<<<<<<< HEAD
+      <workItem from="1476726882263" duration="2440000" />
+      <workItem from="1476729655301" duration="72000" />
+      <workItem from="1476860958062" duration="856000" />
+=======
       <workItem from="1476726882263" duration="2373000" />
       <workItem from="1476764156031" duration="238000" />
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="43229000" />
+=======
     <option name="totallyTimeSpent" value="42472000" />
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -305,7 +367,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/main.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1332">
+=======
         <state relative-caret-position="1184">
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
           <caret line="37" column="60" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="60" />
           <folding />
         </state>
@@ -317,14 +383,32 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#4766#6064#0" expanded="false" />
+            <element signature="e#6083#7449#0" expanded="false" />
+=======
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="6264">
+          <caret line="174" column="14" selection-start-line="174" selection-start-column="14" selection-end-line="174" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
         <state relative-caret-position="3648">
           <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
           <folding />
         </state>
       </provider>
@@ -343,6 +427,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#4766#6064#0" expanded="false" />
+            <element signature="e#6083#7449#0" expanded="false" />
+=======
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
           </folding>
         </state>
       </provider>
@@ -369,6 +458,11 @@
           <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#4766#6064#0" expanded="false" />
+            <element signature="e#6083#7449#0" expanded="false" />
+=======
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
           </folding>
         </state>
       </provider>
@@ -388,6 +482,11 @@
           <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#4766#6064#0" expanded="false" />
+            <element signature="e#6083#7449#0" expanded="false" />
+=======
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
           </folding>
         </state>
       </provider>
@@ -407,6 +506,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#4766#6064#0" expanded="false" />
+            <element signature="e#6083#7449#0" expanded="false" />
+=======
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
           </folding>
         </state>
       </provider>
@@ -426,6 +530,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#4766#6064#0" expanded="false" />
+            <element signature="e#6083#7449#0" expanded="false" />
+=======
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
           </folding>
         </state>
       </provider>
@@ -453,6 +562,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#4766#6064#0" expanded="false" />
+            <element signature="e#6083#7449#0" expanded="false" />
+=======
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
           </folding>
         </state>
       </provider>
@@ -478,6 +592,11 @@
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#4766#6064#0" expanded="false" />
+            <element signature="e#6083#7449#0" expanded="false" />
+=======
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
           </folding>
         </state>
       </provider>
@@ -531,36 +650,57 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/step0.html">
+    <entry file="file://$PROJECT_DIR$/app/step1-1.html" />
+    <entry file="file://$PROJECT_DIR$/app/css/style.css">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="6264">
+          <caret line="174" column="14" selection-start-line="174" selection-start-column="14" selection-end-line="174" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/step1-1.html" />
-    <entry file="file://$PROJECT_DIR$/app/css/style.css">
+    <entry file="file://$PROJECT_DIR$/app/step0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3648">
           <caret line="227" column="0" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="2088">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#4766#6064#0" expanded="false" />
+            <element signature="e#6083#7449#0" expanded="false" />
+=======
         <state relative-caret-position="214">
           <caret line="149" column="24" selection-start-line="149" selection-start-column="24" selection-end-line="149" selection-end-column="24" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="72">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="58" />
+=======
         <state relative-caret-position="100">
           <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+>>>>>>> 9aa919b395b1aa1d7b3759118b3550abcd0afdb1
           <folding />
         </state>
       </provider>

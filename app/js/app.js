@@ -58,9 +58,9 @@ app.controller('mainCtrl', ['$scope', '$timeout', '$interval', 'imgSrc', functio
     ];
     var quesNow = 0;
     $scope.showFail = false;
-    $scope.showShoot = true;
+    $scope.showShoot = false;
     $scope.showPoint = false;
-    $scope.showCorrect = false;
+    $scope.showCorrect = true;
     $scope.showComplete = false;
     $scope.srcLine = 'img/001.png';
     $scope.srcTank = 'img/tank.png';
